@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+        integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
     <title>Educational History | Portfolio</title>
 </head>
@@ -60,58 +60,80 @@
 
             <div class="bio">
                 <h3 class="text-secondary">BIOGRAPHY</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis vero eligendi maiores libero expedita.
-                    Accusantium suscipit minima eum molestias voluptatibus, fuga nostrum placeat! Numquam cumque ex ipsum.
-                    Sequi pariatur corporis repudiandae autem voluptatem aperiam tenetur? Ullam aut doloribus neque omnis
-                    quasi nulla possimus quia quod earum esse amet exercitationem eum, sit alias a vitae quisquam minima
-                    et dolore, ad laboriosam.</p>
+                <p>A proactive professional with 9 years of
+                    experience and proven knowledge in
+                    classroom management, holistic learning
+                    and curriculum development. I constantly
+                    endeavour to expand minds through
+                    exploration and inquiry; build confidence
+                    through positive communication and
+                    reinforcement.</p>
             </div>
             <!-- Degree Frame 1 -->
             <div class="job job-1">
                 <h3>Graduate Diploma in Education (Secondary)</h3>
                 <h5>Griffith University</h5>
                 <h5>Nov 2010</h5>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto harum quam deserunt quidem! Id quidem
-                    ducimus pariatur omnis temporibus quos quae laborum necessitatibus. Consequuntur odit temporibus suscipit
-                    maxime aliquam numquam tempora accusamus facere debitis asperiores nihil, illum dolor eius distinctio?
-                    Doloribus eaque laudantium hic voluptatem saepe dolorem nihil laborum ratione eos cum, quis nemo aliquid
-                    distinctio qui nisi at fugit?</p>
+                <p>Attended from <b>February 2010</b> to <b>December 2010</b> </br>
+                    </br>Specialised in: </br>
+                    Middle years English</br> Middle and
+                    Senior years Visual Arts</br> Film and Media</br> Middle
+                    years learning enhancement.</p>
             </div>
             <!-- Degree Frame 2 -->
             <div class="job job-2">
                 <h3>Bachelor of Commerical Photography</h3>
                 <h5>Griffith University</h5>
                 <h5>Nov 2008</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quasi iusto odio animi fuga assumenda
-                    labore doloribus inventore ab maxime? Neque tempora reiciendis optio consequuntur a minus illo perspiciatis
-                    officiis voluptatibus in, quasi fuga eaque adipisci incidunt, sit exercitationem debitis eius veniam
-                    fugiat qui? Quos molestiae in expedita maxime ad cupiditate quam neque minima? Aliquam illum animi debitis
-                    consequuntur veritatis.</p>
+                <p>Attended from <b>2005</b> to <b>2008</b></br>
+                    Specialised in commercial photography.
+                </p>
             </div>
             <!-- Degree Frame 3 -->
             <div class="job job-3">
-                <h3>Certificate IV in TESOL</h3>
-                <h5>Queensland College of TAFE</h5>
-                <h5>2009</h5>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus aspernatur ab corporis! Fuga molestiae
-                    amet consequuntur? Quos, quibusdam placeat est harum molestiae enim facere. Ea voluptatum animi magnam,
-                    repellendus tempore aspernatur doloremque, necessitatibus velit perferendis inventore, corporis eveniet
-                    voluptatem in rem vel saepe. Deleniti mollitia, excepturi pariatur distinctio hic autem optio, corrupti
-                    praesentium aspernatur sunt tempore officiis qui voluptatem nihil!</p>
+                <h3>Pre Service Teaching</h3>
+                <h5>Hillcrest Christrian College</br>
+                    Robina State High School</br>
+                    Gold Coast Institute of Tafe
+                </h5>
+                <h5>Oct 2010- Nov 2010</br>
+                    May 2010- June 2010</br>
+                    Dec 2008- Jan 2009</br>
+                </h5>
+                <h5>Senior School Practicum Teacher</br>
+                    Middle School Practicum Teacher</br>
+                    English Teacher (ESL) </br>
+                </h5>
+                <p></p>
             </div>
         </div>
     </main>
 
     <!-- Footer Area -->
     <footer id="main-footer">
-        Copyright &copy; 2018 A big thank you to <a href="https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA"><b>Traversy
+        Copyright &copy; 2018 A big thank you to <a
+            href="https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA"><b>Traversy
                 Media
             </b></a>
     </footer>
 
     <!-- JS Script -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            //Disable cut copy paste
+            $('body').bind('cut copy paste', function (e) {
+                e.preventDefault();
+            });
 
+            //Disable mouse right click
+            $("body").on("contextmenu", function (e) {
+                return false;
+            });
+        });
+    </script>
 </body>
 
 </html>
